@@ -36,7 +36,7 @@ function getCurrentTabUrl(callback) {
 
     callback(url);
   });
-
+ 
   // Most methods of the Chrome extension APIs are asynchronous. This means that
   // you CANNOT do something like this:
   //
